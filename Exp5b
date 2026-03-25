@@ -1,0 +1,13 @@
+<!--css to html page-->
+body {
+  background-image: url('your-image.jpg');
+  
+  /* Places image halfway down (50%) and centered horizontally (50%) */
+  background-position: 50% 50%; 
+  
+  /* "Tiling" horizontally (repeat only on the x-axis) */
+  background-repeat: repeat-x; 
+  
+  /* Keeps the background fixed while scrolling */
+  background-attachment: fixed; 
+}
