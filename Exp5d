@@ -1,0 +1,22 @@
+<style>
+  .box-model-demo {
+    /* 1. Content: The actual text or image */
+    width: 300px;
+    height: 100px;
+    background-color: lightblue;
+
+    /* 2. Padding: Space inside the border, around the content */
+    padding: 20px;
+
+    /* 3. Border: A line that goes around the padding and content */
+    border: 5px solid navy;
+
+    /* 4. Margin: Space outside the border, separating it from other elements */
+    margin: 40px;
+  }
+</style>
+
+<div class="box-model-demo">
+  <strong>Content Area</strong><br>
+  I am surrounded by padding, then a border, then a margin.
+</div>
